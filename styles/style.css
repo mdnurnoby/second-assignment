@@ -1,0 +1,139 @@
+/* shared styles */
+
+.btn-primary {
+  width: 154px;
+  height: 32px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+}
+
+.text {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* header styles */
+
+header {
+  /* background: #fff; */
+  padding: 50px 240px;
+}
+.country {
+  color: #10ea9a;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.travel {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.home {
+  color: #ff5400;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #424242;
+}
+
+/* banner styles */
+
+.banner {
+  background-image: url(../Images/Group\ .png);
+  width: 1060px;
+  height: 490px;
+  border-radius: 16px;
+  background: linear-gradient 180deg, rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%;
+}
+
+.banner-title {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.text-light-gray {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  /* height: 40px; */
+  /* width: 170px; */
+  /* display: inline-flex; */
+  padding: 16px;
+  /* align-items: flex-end; */
+  gap: 24px;
+  border: none;
+}
+
+input {
+  width: 120px;
+  height: 30px;
+  padding-left: 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+/* main styles */
+
+.feature-content {
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.features {
+  margin-top: 130px;
+  gap: 100px;
+  display: flex;
+}
+
+.features .section-title {
+  padding-left: 21px;
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.feature-img img {
+  height: 90%;
+  margin-left: 90px;
+  width: 540px;
+  height: 550px;
+}
