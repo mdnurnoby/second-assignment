@@ -11,7 +11,7 @@ body {
   border-radius: 8px;
   background: #ff5400;
   border: none;
-  margin: 0 30px;
+  /* margin: 0 40px; */
 }
 
 .text {
@@ -84,7 +84,7 @@ nav a {
 /* banner styles */
 
 .banner {
-  background-image: url(../Images/Group\ .png);
+  background-image: url("../Images/Group\ .png");
   width: 1060px;
   height: 490px;
   border-radius: 16px;
@@ -252,7 +252,6 @@ input {
   display: flex;
 }
 
-
 .feature-content {
   padding: 30px;
   margin-bottom: 20px;
@@ -260,20 +259,19 @@ input {
   background: #fff;
 }
 
-.dim{
+.dim {
   position: absolute;
-  color: #FFF;
+  color: #fff;
   padding: 20% 30%;
   text-align: center;
   font-size: 24px;
   font-weight: 700;
-  line-height: 36px; 
+  line-height: 36px;
 }
 
-.feature-img{
+.feature-img {
   position: relative;
 }
-
 
 .feature-img img {
   margin-left: 90px;
@@ -377,6 +375,10 @@ footer {
   background: rgba(19, 19, 24, 0.05);
 }
 
+.short-icon {
+  width: 40px;
+  height: 46.673px;
+}
 .span {
   text-align: center;
   padding: 110px;
@@ -399,5 +401,37 @@ footer {
   height: 1px;
 }
 
-.icons {
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column;
+    height: auto;
+  }
+  .features {
+    flex-direction: column;
+    height: auto;
+  }
+  .paragraph {
+    height: auto;
+  }
+  .banner-picture {
+    flex-direction: column;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .facts-card-container {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .feature-1 {
+    flex-direction: column;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .form-section {
+    height: auto;
+  }
 }
