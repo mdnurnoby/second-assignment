@@ -168,16 +168,40 @@ input {
 }
 
 .banner-picture {
-  /* position: relative; */
-  margin-left: 135px;
-  padding: 48px;
+  /* padding: 0 135px; */
+  margin: 0 135px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
-/* .Maldives{
+.mim {
   position: absolute;
-} */
+  padding: 20% 40%;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
 
-.banner-picture img {
-  margin: 10px;
+.picture-1 {
+  position: relative;
+}
+.picture-2 {
+  position: relative;
+}
+.picture-3 {
+  position: relative;
+}
+.picture-4 {
+  position: relative;
+}
+.picture-5 {
+  position: relative;
+}
+.picture-6 {
+  position: relative;
+}
+.picture-7 {
+  position: relative;
 }
 
 /* facts-card-styles */
@@ -228,12 +252,28 @@ input {
   display: flex;
 }
 
+
 .feature-content {
   padding: 30px;
   margin-bottom: 20px;
   border-radius: 8px;
   background: #fff;
 }
+
+.dim{
+  position: absolute;
+  color: #FFF;
+  padding: 20% 30%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; 
+}
+
+.feature-img{
+  position: relative;
+}
+
 
 .feature-img img {
   margin-left: 90px;
@@ -334,7 +374,7 @@ footer {
   border-radius: 20px;
   width: 1500px;
   height: 502px;
- background: rgba(19, 19, 24, 0.05);
+  background: rgba(19, 19, 24, 0.05);
 }
 
 .span {
@@ -357,11 +397,7 @@ footer {
 .line {
   width: 872px;
   height: 1px;
-
 }
 
-
-
-.icons{
-
+.icons {
 }
